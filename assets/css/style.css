@@ -16,7 +16,8 @@ body {
 .container
 {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1230px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -236,4 +237,64 @@ color: #ff0;
 .fa-brands fa-twitch{
     display: flex;
     color: black;
+}
+
+.blog {
+    display: flex;
+}
+
+.blog__item {
+    width: 30%;
+}
+
+.blog__header {
+    position: relative;
+}
+
+.blog__photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.blog__date {
+    padding: 10px;
+    
+    background-color: #95e1d3;
+    
+    font-style: italic;
+    font-size: 15px;
+    color: #fff
+    
+    
+    position: absolute;
+    bottom: 10px;
+    left: -10px;
+    z-index: 1;
+}
+
+.blog__date-day {
+    font-size: 30px;
+    font-weight: 700;
+    
+    font-style: normal;
+}
+
+@media (max-width: 1230px) {
+    
+    .intro__suptitle{
+        font-size: 52px;
+    }
+    
+}
+
+
+
+
+@media (max-width: 990px) {
+    
+    .intro__suptitle{
+        font-size: 32px;
+    }
+    
 }
