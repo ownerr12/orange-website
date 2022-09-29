@@ -298,3 +298,12 @@ color: #ff0;
     }
     
 }
+
+
+@media (max-width: 660px) {
+    
+    .intro__suptitle{
+        font-size: 20px;
+    }
+    
+}
